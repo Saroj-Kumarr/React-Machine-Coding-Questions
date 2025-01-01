@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.toast-container {
+  animation: toast 0.5s ease;
+}
+
+.toast-container-go {
+  animation: toastSecond 0.5s ease;
+}
+
+@keyframes toastSecond {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes toast {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
