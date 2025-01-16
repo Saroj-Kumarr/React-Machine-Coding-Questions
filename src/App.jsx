@@ -1,9 +1,9 @@
-import StarRating from "./components/StarRating";
+import MemoryGame from "./components/MemoryGame";
 
 const App = () => {
   return (
-    <div className="mx-auto w-[800px] border-2 border-gray-200 h-screen">
-      <StarRating starCount={10} />
+    <div className="mx-auto w-[800px] bg-gray-800 text-slate-200 h-screen">
+      <MemoryGame />
     </div>
   );
 };
