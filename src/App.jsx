@@ -1,23 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Breadcrumbs from "./components/Breadcrumbs";
-import ProductListing from "./screens/ProductListing";
-import ProductDetail from "./screens/ProductDetail";
-import Home from "./screens/Home";
+import Dropdown from "./components/Dropdown";
 
 const App = () => {
   return (
-    <Router>
-      <div className="app">
-        <h1>RoadsideCoder Store</h1>
-        <Breadcrumbs />
-        <hr />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<ProductListing />} />
-          <Route path="/products/:id" element={<ProductDetail />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+      <Dropdown />
+    </div>
   );
 };
 
