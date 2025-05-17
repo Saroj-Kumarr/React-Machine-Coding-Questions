@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/prop-types
 const Button = ({ type, message, handleAddToast }) => {
   return (
     <button

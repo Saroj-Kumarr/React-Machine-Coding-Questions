@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ToastCard from "./ToastCard";
-import Button from "./Button";
+import Button from "../Button";
 
 const ToastContainer = () => {
   const [toastList, setToastList] = useState([]);

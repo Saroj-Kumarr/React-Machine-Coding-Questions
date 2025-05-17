@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import data from "../../data.json";
+import { data } from "../../constant/constant";
 
 const DATA_LENGTH = data.length;
 

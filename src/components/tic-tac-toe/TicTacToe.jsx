@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Board from "./Board";
-import { checkWinner, initialState } from "../utils";
+import { checkWinner, initialState } from "../../utils";
 
 export default function TicTacToe({ size = 3 }) {
   const [board, setBoard] = useState(initialState(size));

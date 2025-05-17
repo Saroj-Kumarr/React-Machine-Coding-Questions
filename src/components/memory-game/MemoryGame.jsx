@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { generateGrids } from "../utils";
+import { generateGrids } from "../../utils";
 
 const MemoryGame = () => {
   const [cards, setCards] = useState(generateGrids());

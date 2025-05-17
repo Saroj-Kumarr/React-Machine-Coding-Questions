@@ -33,7 +33,7 @@ export default function Autocomplete() {
         cache.current[query] = data.products;
         setResults(data.products);
       } catch (error) {
-        setStatus(STATE.ERROR);
+        setStatus(STATE.ERROR + "" + error);
       }
     };
 

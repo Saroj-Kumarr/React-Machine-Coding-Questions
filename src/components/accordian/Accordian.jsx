@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../../data.json";
+import data from "../../../data.json";
 import AccordianCard from "./AccordianCard";
 
 const Accordian = () => {

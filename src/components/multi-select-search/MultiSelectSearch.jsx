@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { RxCross2 } from "react-icons/rx";
-import useDebounce from "../custom-hooks/useDebounce";
+import useDebounce from "../../custom-hooks/useDebounce";
 
 const MultiSelectSearch = () => {
   const [searchTerm, setSearchTerm] = useState("");

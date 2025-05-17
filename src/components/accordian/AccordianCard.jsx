@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/prop-types
 const AccordianCard = ({ index, handleToggle, faq, selectedIndex }) => {
   return (
     <div key={index}>

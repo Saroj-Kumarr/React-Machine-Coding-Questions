@@ -1,7 +1,13 @@
 import { useRef } from "react";
 import { useState } from "react";
 
-const DragAndDrop = ({ initialData }) => {
+const initialData = {
+  "To Do": ["Task 1", "Task 2", "Task 3"],
+  "In Progress": ["Task 4"],
+  Done: ["Task 5"],
+};
+
+const DragAndDrop = () => {
   const [data, setData] = useState(initialData);
   const dragItem = useRef();
   const dragContainer = useRef();
